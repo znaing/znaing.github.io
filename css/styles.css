@@ -1,0 +1,151 @@
+
+/* CSS files add styling rules to your content */
+:root {
+    --color0: #d9e4dd;
+    --color1: #fbf7f0; 
+    --color2: #cdc9c3;
+    --color3: #555555;
+  }
+  
+  .content-wrap{
+    margin:auto;
+    width:60%;
+    overflow:hidden;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align:justify;
+  }
+  .column-narrow{
+    width:30%;
+    float left;
+    padding-right:3%;
+    min-height:300px;
+  }
+  
+  .column-wide{
+    padding-top:0px;
+    width: 70%;
+    float:right;
+    min-height:225px;
+    text-align:justify;
+  }
+  body {
+    padding-top: 100px; 
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+  }
+  
+  
+  h1 {
+    color: black;
+    margin: 0;
+  }
+  h2 {
+    padding-top:20px;
+    padding-bottom:20px;
+    color: black;
+    margin: 0;
+    
+  }
+  h3 {
+    color:#006400;
+    margin: 0;
+   
+    
+  }
+  p {
+    color: black;
+    
+  }
+  /*Header Intro*/
+  .bchd{
+    background-color: var(--color0);
+    width: 100%;
+  }
+  header{
+    padding-top: 80px;
+  }
+  .profile-img {
+    float: left;
+    width: 200px;
+    border-radius:60%;
+    margin-right:30px;
+  }
+  /*Experience*/
+  .experience{
+    
+  }
+  .bcex{
+    background-color: var(--color1);
+    width: 100%;
+  }
+  
+  /*Educatiom*/
+  .education{
+    
+  }
+  /*Transparent Image*/
+  .bced{
+    background-color: var(--color2);
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .bced:before {
+      
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: url(https://cdn.glitch.com/fd9afe19-a6ba-4aff-b1d2-1c2fdcfb77c3%2Fseamless-cityscape_8130-263.jpg?v=1603257053714) center repeat;
+      opacity: 0.4;
+      
+  }
+  
+  /*Contact*/
+  .bcct{
+    background-color: var(--color3);
+    width: 100%;
+  }
+  
+  .contact-info a{
+    padding:5px; 
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer{
+    background-color: var(--color3);
+    border-top: 0px solid gray;
+      text-align: center;
+  }
+  
+  /*Nav Bar*/
+  nav {
+    width: 100%;  
+    background-color:var(--color1);;
+    position: fixed;
+    margin:0px;
+    top:0;
+    overflow:hidden;
+    text-align:center;
+  }
+  nav a:hover{
+    background-color:var(--color0);   
+  }
+  nav a{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.3em;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    justify-content:center;
+  }
+  
